@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head> <!-- Début de l'entête -->
+
+		<meta charset="UTF-8">
+
+		<title>VBM - Porto Santo</title>
+		
+		<!-- Accès à l'icone d'onglet -->
+		<link rel="icon" type="image/x-icon" href="images/logo_avion.png">
+
+		<!-- Accès aux polices d'ecriture -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Accès aux feuilles de style -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap">
+		<link id="stylesheet" rel="stylesheet" href="style_clair.css" type="text/css">
+
+	</head> <!-- Fin de l'entête -->
+
+	<body> <!-- Début du corps du site -->
+
+		<div class="container">
+
+		<span id="hautDePage">
+
+			<span id="logotype"><a href="index.html"><img src="imagesaccueil/logo_avion.png" alt="Logo du site"></a>Voyages au bout du monde</span>
+
+			<button id="toggleButton">Changer de thème</button>
+
+		</span>
+
+			<header class="video-container"> <!-- Header -->
+
+				<img class="integ" src="imageshotels/superhotel.png" alt="Image promotionnelle d'un hotel">
+
+				<div class="caption">
+					<h3>•Hôtellerie•</h3>
+					<h1>Passez une nuit de rêve</h1>
+					<h2>Reposez-vous avant vos activités</h2>
+				</div>
+
+			</header>
+
+		<nav id="enSavoirPlus">
+
+			<span>
+
+				<a href="index.html">Accueil</a>
+				<a href="restos.html">Restauration</a>
+				<a href="activites.html">Activités</a>
+
+			</span>
+
+		</nav>
+
+			<main> <!-- Début du main ! -->
+
+				<section class="introduction"> <!-- Introduction -->
+
+					<div> <!-- Image d'illustration de l'introduction -->
+						<img src="imageshotels/stargazing.png" alt="La voie lactée vue depuis l'île">
+					</div>
+
+					<div>
+
+						<h3>Repos</h3>
+						<h2>Où dormir à Porto Santo ?</h2>
+
+						<p>
+							Porto Santo est beaucoup plus calme et paisible que l'île principale de Madère. 
+							C'est un endroit idéal pour échapper au stress de la vie quotidienne et se détendre. 
+							Porto Santo est un bon endroit d'oùù observer les étoiles, en raison de la faible pollution lumineuse sur place. 
+							C'est - entre autres - un petit paradis pour les féru.e.s d'astronomie.
+						</p>
+
+					</div>
+
+				</section>
+
+<!-- Inter-section -->
+
+				<section class="secondary">
+
+					<h3 class="text-center">QUELQUES ADRESSES</h3>
+					<h2 class="text-center">Recommandations d'hôtels</h2>
+
+					<div class="carte-conteneur">
+
+						<div class="carte-aux">
+
+							<div class="image-carte">
+
+								<img src="imageshotels/hotel1.jpg" alt="Image du Vila Baleira Resort">
+
+							</div>
+
+							<div class="corps-carte">
+
+								<h4>Vila Baleira Resort</h4>
+
+								<h5>Où ?</h5>
+								<p>Sitio do, 9400-909 Cabeco da Ponta</p>
+
+								<h5>Ce qu'on a aimé</h5>
+								<p>
+									Vila Baleira Resort est l'un des hôtels les plus luxueux de Porto Santo. 
+									Situé directement sur la plage de sable doré de l'île, il offre une vue spectaculaire sur l'océan Atlantique.
+									L'hôtel propose des chambres élégantes, un spa de classe mondiale, 
+									des restaurants raffinés et de nombreuses installations de loisirs, y compris une piscine extérieure.
+								</p>
+
+							</div>
+
+						</div>
+						
+						<div class="carte-aux">
+
+							<div class="image-carte">
+
+								<img src="imageshotels/hotel2.jpg" alt="Image du Pestana Porto Santo Beach Resort">
+
+							</div>
+
+							<div class="corps-carte">
+
+								<h4>Pestana Porto Santo Beach Resort & Spa</h4>
+
+								<h5>Où ?</h5>
+								<p>Route Régionale 120, Sitio do, 9400-242 Campo de Baixo</p>
+
+								<h5>Ce qu'on a aimé</h5>
+								<p>
+									Pestana Porto Santo Beach Resort & Spa est un complexe hôtelier de renommée internationale
+									offrant un mélange parfait entre luxe et détente.
+									Il est niché dans un cadre paisible avec un accès direct à la plage de Porto Santo.
+									Les clients peuvent profiter de diverses piscines, de courts de tennis, 
+									de restaurants de qualité, et d'un spa où ils peuvent se ressourcer.
+								</p>
+
+							</div>
+
+						</div>
+						
+						<div class="carte-aux">
+
+							<div class="image-carte">
+
+								<img src="imageshotels/hotel3.jpg" alt="Image de l'hotel Torre Praia">
+
+							</div>
+
+							<div class="corps-carte">
+
+								<h4>Torre Praia Hotel</h4>
+
+								<h5> Où ? </h5>
+								<p>Rua Goulart Medeiros, 9400-164 Vila Baleira</p>
+
+								<h5>Ce qu'on a aimé</h5>
+								<p>
+									Torre Praia Hotel est un hôtel charmant et familial situé à proximité de la plage. 
+									Il se caractérise par une ambiance conviviale et chaleureuse. 
+									Les chambres offrent des vues imprenables sur la mer ou les jardins luxuriants de l'hôtel. 
+									Vous pourrez vous détendre au bord de la piscine extérieure 
+									ou déguster une cuisine locale au restaurant de l'hôtel.
+								</p>
+
+							</div>
+
+						</div>
+
+						<section>
+
+							<div class="form">
+
+								<h4>Formulaire de réservation</h4>
+
+								<form> <!-- Formulaire. -->
+
+									<label class="option">Sélectionner un hôtel</label>
+
+									<select name="pets" id="pet-select">
+										<option value="">--Veuillez choisir une option--</option>
+										<option value="hotel1">Vila Baleira Resort</option>
+										<option value="hotel2">Pestana Porto Santo Beach Resort & Spa</option>
+										<option value="hotel3">Torre Praia Hotel</option>
+									</select>
+
+									<label>Nom</label>
+									<input type="text" placeholder="Nom"> <!-- Affichage du "nom" par défaut dans la case-->
+
+									<label>Prénom</label>
+									<input type="text" placeholder="Prenom"> <!-- Champ pour le prénom. -->
+
+									<label>Adresse de messagerie</label>
+									<input type="email" placeholder="adresse@email.fr"> <!-- L'utilisateur devra entrer son adresse-mail. -->
+
+									<label>Téléphone</label>
+									<input type="tel" placeholder="0612345678"> <!-- Pareil pour le numéro de téléphone. -->
+
+									<label>Heure d'arrivée</label>
+									<input type="datetime-local" min="2023-11-01T00:00" max="2024-01-15T00:00">
+
+									<label>Date de départ</label>
+									<input type="datetime-local" min="2023-11-01T00:00" max="2024-01-15T00:00">
+
+									<label>Nombre d'adultes</label>
+									<input type="number" min="0" max="10">
+
+									<label>Nombre d'enfants</label>
+									<input type="number" min="0" max="10">
+									<br>
+
+									<input type="submit" value="Valider"> <!-- Bouton pour confirmer le formulaire une fois rempli-->
+
+									<input type="reset" value="Effacer"> <!-- Bouton pour effacer le formulaire. -->
+
+								</form>
+
+							</div>
+
+						</section>
+
+					</div>
+
+
+				</section>
+
+			</main>
+
+			<footer>
+
+				<section class="basDePage">
+
+					<div>
+
+						<h3>Plus sur Porto Santo :</h3>
+
+						<ul>
+
+							<li>
+								<a href="https://www.aeroportoportosanto.pt/en/pxo/home">Aéroport de Porto Santo</a>
+							</li>
+
+							<li>
+								<a href="https://www.portosantoline.pt/en/">Ligne de ferries de Porto Santo</a>
+							</li>
+
+							<li>
+								<a href="https://goo.gl/maps/z5XBC1VeyQYwLHCn6">Carte de Porto Santo</a>
+							</li>
+
+						</ul>
+
+					</div>
+
+					<div>
+
+						<h3>Qui sommes nous ?</h3>
+
+						<p>
+							Petite équipe de trois développeurs Web accessoirement accro au voyage,
+							nous cherchons toujours le moyen d'incorporer notre passion dans notre métier.
+							C'est pour cela que nous proposons nos services de développement à des agences touristiques depuis 2023.
+						</p>
+
+					</div>
+
+				</section>
+
+			</footer>
+
+		</div>
+
+		<!-- Script qui permet de changer de thème -->
+		<script>
+			const toggleButton = document.getElementById("toggleButton");
+			const stylesheet = document.getElementById("stylesheet");
+
+			toggleButton.addEventListener("click", () => {
+			if (stylesheet.getAttribute("href") === "style_clair.css") {
+				stylesheet.setAttribute("href", "style_fonce.css");
+			} else {
+				stylesheet.setAttribute("href", "style_clair.css");
+			}
+			});
+		</script>
+
+	</body>
+
+</html>

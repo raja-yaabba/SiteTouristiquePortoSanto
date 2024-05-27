@@ -1,0 +1,359 @@
+	body {
+		font-family: "Poppins", sans-serif;
+		background-color: #121212;
+		color: #ffffff;
+}
+
+	.container {
+		max-width: 1400px;
+		margin: 0 auto;
+}
+
+	#hautDePage {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+
+	#logotype img {
+		height: 100px;
+}
+
+	#logotype {
+		text-align: left;
+		color: #ebe1a4;
+		font-size: 200%;
+		display: flex;
+		align-items: center;
+		margin: 3% 0;
+}
+
+	header {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45));
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+		text-align: center;
+		padding: 200px 0;
+}
+
+	.video-container {
+		position: relative;
+		overflow: hidden;
+}
+
+	.video-container .integ {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -1;
+}
+
+	.caption {
+		position: relative;
+		z-index: 1;
+}
+
+	header h1 {
+		font-weight: bold;
+		font-size: 90px;
+		margin: 30px 0;
+}
+
+	header h2 {
+		font-weight: normal;
+		font-size: 40px;
+}
+
+	header h3 {
+		font-style: normal;
+		font-weight: black;
+		font-size: 25px;
+		letter-spacing: 5px;
+}
+
+	header a {
+		padding: 16px 32px;
+		background-color: white;
+		color: black;
+		font-weight: bold;
+		font-size: 14px;
+		text-align: center;
+		letter-spacing: 3px;
+		text-decoration: none;
+}
+
+	nav {
+		background-color: #1c1c1c;
+		list-style-type: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: sticky;
+		top: 0;
+		height: 110px;
+		z-index: 1;
+}
+
+	nav a {
+		margin: 0 50px;
+		padding: 10px;
+		display: inline-block;
+		font-size: 150%;
+		background-color: #333333;
+		color: #ffffff;
+		text-decoration: none;
+}
+
+	main {
+		background-color: #262626;
+}
+
+	main h2 {
+		font-weight: bold;
+		font-size: 40px;
+		margin: 0;
+}
+
+	main h3 {
+		color: #aaaaaa;
+		font-weight: bold;
+		font-size: 16px;
+		letter-spacing: 5px;
+		margin: 0;
+}
+
+	main p {
+		text-align: justify;
+		font-size: 16px;
+}
+
+	main h4 {
+		font-weight: bold;
+		font-size: 24px;
+		margin: 0 0 20px 0;
+}
+
+	main h5 {
+		font-weight: bold;
+		font-size: 13px;
+		margin: 0;
+}
+
+	.introduction {
+		display: flex;
+		justify-content: space-between;
+}
+
+	.introduction div {
+		margin: auto;
+		display: inline-block;
+		flex: 1;
+}
+
+	.introduction div img {
+		width: 450px;
+		margin-left: 20px;
+}
+
+	.form {
+		right: 50%;
+		top: 50%;
+}
+
+	.option {
+		font-style: oblique;
+		font-weight: bolder;
+}
+
+	form h4 {
+		font-weight: lighter;
+		font-style: italic;
+		text-align: center;
+}
+
+	form {
+		border: solid #4d4d4d;
+		margin: auto;
+		padding: 10px;
+		border-radius: 10px;
+		background-color: #262626;
+		text-align: left;
+		width: fit-content;
+}
+
+	input, select {
+		display: block;
+		border: none;
+		border-radius: 10px;
+		width: 400px;
+		font-family: "Helvetica";
+		margin: 10px auto;
+		border-color: #333333;
+}
+
+	input:focus, input:hover, select {
+		background-color: #aaaaaa;
+		outline: none;
+		border: 2px solid #ffffff;
+}
+
+	input[type=submit]:hover, input[type=reset]:hover {
+		background-color: #aaaaaa;
+}
+
+	footer {
+		color: white;
+}
+
+	footer ul {
+		padding: 0;
+}
+
+	footer li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+}
+
+	footer h3 {
+		font-weight: 700;
+		font-size: 17px;
+		line-height: 1.5;
+}
+
+	section {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 100px;
+}
+
+	section.secondary {
+		background-color: #303030;
+}
+
+	section a {
+		color: white;
+		opacity: 0.7;
+		font-size: 15px;
+}
+
+	footer p {
+		opacity: 0.7;
+		line-height: 24px;
+		font-weight: 400;
+		font-size: 15px;
+}
+
+	.carte-conteneur {
+		justify-content: center;
+		padding: 15px;
+		flex-wrap: wrap;
+}
+
+	.carte-accueil {
+		display: flex;
+		margin: 30px auto;
+		background-color: #262626;
+		width: 75%;
+		box-sizing: border-box;
+		padding: 30px;
+}
+
+	.corps-carte {
+		padding-top: 10px;
+}
+
+	.corps-carte p {
+		margin: 0 0 30px 0;
+}
+
+	.carte-accueil .image-carte {
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+		margin: auto 20px auto auto;
+}
+
+	.carte-accueil .image-carte img {
+		width: 250px;
+		height: 40%;
+		margin: 4px 0;
+}
+
+	.carte-aux {
+		display: flex;
+		margin: 30px auto;
+		background-color: #262626;
+		width: 75%;
+		box-sizing: border-box;
+		padding: 30px;
+}
+
+	.carte-aux .image-carte {
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+		margin: auto 20px auto auto;
+}
+
+	.carte-aux .image-carte img {
+		width: 350px;
+		height: 80%;
+		margin: 4px 0;
+}
+
+	.liens {
+		background-color: #1b1b1b;
+}
+
+	.liste-liens {
+		list-style-type: none;
+		text-align: center;
+		font-size: 40px;
+}
+
+	.liste-liens li a {
+		color: #aaaaaa;
+		font-size: 30px;
+}
+
+	.text-center {
+		text-align: center;
+}
+
+	.section-iframe {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+
+	.map-interactive {
+		background-color: #262626;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+		width: 80%;
+		height: 500px;
+}
+
+	.map-interactive iframe {
+		max-width: 100%;
+		height: 90%;
+		width: 90%;
+}
+
+	.basDePage {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+	.basDePage div {
+		width: 40%;
+}
